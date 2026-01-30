@@ -235,7 +235,7 @@ window.addEventListener('load', () => {
 import("https://esm.run/@google/generative-ai").then(module => {
     const { GoogleGenerativeAI } = module;
 
-    const API_KEY = "AIzaSyD158v6j87Q_rWeCDM2oj2myeVc5nxcmjU"; 
+    const API_KEY = "AIzaSyC8lQkASFg-HAOG3kvyGtK7qqNSe8lQp1U"; 
     const genAI = new GoogleGenerativeAI(API_KEY);
 
     // Add your system prompt here
@@ -374,4 +374,5 @@ Behavior Rules:
         if (e.key === 'Enter') handleChat();
     });
     
+
 }).catch(err => console.error("Failed to load Gemini SDK:", err));
